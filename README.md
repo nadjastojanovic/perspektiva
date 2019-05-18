@@ -1,0 +1,2 @@
+# perspektiva
+School Magazine website
