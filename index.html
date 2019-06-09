@@ -5,9 +5,13 @@
 	<head>
 		<title>Perspektiva</title>
 
-		 <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Arima+Madurai:100|Karma" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Arima+Madurai:100|Karma" rel="stylesheet"> 
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
 			
 		<style>
+            table {
+                width: 100%;
+            }
 			table h2 {
 				font-family:'Arima Madurai', cursive;
 				font-size:22px;
@@ -47,6 +51,7 @@
 			}
 			#lev {
 				border-right:3px solid #666;
+
 			}
 			#lev img{
 				display:block;
@@ -56,10 +61,14 @@
 				margin-top:20px;
 				padding-top:20px;
 			}
+            #rig {
+                width: 75% !important;
+            }
 			#rig, ul {
 				font-family:'Karma', serif;
 				padding-left: 50px;
 				list-style-position:inside;
+                list-style: none;
 			}
 			#rig p{
 				width:87%;
@@ -119,6 +128,23 @@
                 background-color:#BD1E33;
                 color:white;
             }
+            @media screen and (max-width: 640px) {
+                table h1{
+                    font-size: 80px;
+                }
+                table h2 {
+                    font-size: 30px;
+                }
+                .nav p {
+                    font-size: 20px;
+                }
+                #lev, #rig {
+                    padding-top: 30px;
+                }
+                #rig p {
+                    font-size: 20px;
+                }
+            }
 		</style>
 
 
@@ -138,7 +164,7 @@
 				</th>
  			</tr>
  			<tr>
-     				<td valign="top" id="lev" width="22%">				
+     				<td valign="top" id="lev">				
 					<p>
 					Dragi čitaoci,
 					
