@@ -1,6 +1,6 @@
 # PERSPEKTIVA
 
-Perspektiva is a website built as a part of a school project. 
+Perspektiva is a website built as a part of a school project. Check it out [here](https://perspektiva.netlify.com/)!
 
 ## Objective
 
